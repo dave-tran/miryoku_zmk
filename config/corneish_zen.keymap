@@ -4,11 +4,13 @@
 
 / {
   macros {
-ZMK_MACRO(abc,
+  my_macro: my_macro {
+    compatible = "zmk,behavior-macro";
+    label = "ZM_my_macro";
           wait-ms = <30>;
           tap-ms = <40>;
           bindings = <&kp A &kp AT &kp B &kp C &kp RET>;
-          )
+          };
   };
 };
 
