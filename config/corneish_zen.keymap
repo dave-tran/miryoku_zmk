@@ -19,6 +19,7 @@
     label = "ZM_my_macro";
           wait-ms = <30>;
           tap-ms = <40>;
+          #binding-cells = <0>;
           bindings = <&kp A>, <&kp AT>, <&kp B>, <&kp C>, <&kp RET> ;
           };
   };
